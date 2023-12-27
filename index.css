@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home{
+   text-align: center; 
+}
+
+H3 { 
+    font-size: 40px;
+    font-family: Verdana;
+    color: #eeeeee;
+}
+
+#scoreboard , #scoreboard2 {
+   margin-top: -30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #080001;
+   color: #F94F6D;
+   font-size: 90px;
+   width: 160px;
+   height: 120px; 
+   border-radius: 5px;
+   font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.pointbtns{
+    display: flex;
+    justify-content: space-around;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+#pointbtn {
+    margin-top: 25px;
+    width: 41px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #9AABD8;
+    border-radius: 5px;
+}
